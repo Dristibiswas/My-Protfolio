@@ -1,0 +1,198 @@
+
+/* global css */
+:root{
+    --primary-color:#2f5b6b;
+    --secondary-color:white;
+}
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+/* header section */
+
+header{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    position: sticky;
+}
+header div .heading{
+    padding: 20px;
+    font-size: 40px;
+}
+.main-menu{
+    float: right;   
+}
+.main-menu ul li{
+display: inline-block;
+margin-left: 30px;
+}
+.main-menu ul li a{
+    color: var(--secondary-color);
+}
+.main-menu ul li a:hover{
+    color: blueviolet;
+    text-decoration:underline;
+}
+/* first section */
+.first-section{
+    text-align: center;
+}
+.global-btn{
+    height: 40px;
+    width: 100px;
+    border-radius: 3px;
+}
+.global-btn a{
+    color: var(--primary-color);
+    border-radius: 5px;
+}
+.global-btn a:hover{
+    background-color: black;
+    color: var(--secondary-color);
+    padding: 8px;
+    border-radius: 5px;
+}
+.first-section{
+    background-image: url(baground.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 10rem 0;
+    text-align: center;
+    justify-content: center;
+}
+.first-section h2{
+    font-size:5rem ;
+    text-align: center;
+}
+
+.first-section p{
+    font-size: 3rem;
+    text-align: center;
+}
+.global-section{
+    padding: 4rem 0;
+}
+.global-heading{
+    font-size: 45px;
+    text-align: center;
+
+}
+.global-head-p{
+    text-align: center;
+    color: darkgrey;
+}
+.global-section .about-main-div .about-sub-div2 .global-btn{
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+}
+/* about us section */
+
+.about-section{
+    text-align: center;
+    margin-top: 20px;
+}
+.about-section .about-main-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+.about-section p{
+    text-align: center;
+    margin: 10px 150px;
+
+}
+.about-section .profile-image{
+    border-radius: 50%;
+    filter: saturate(0);
+
+}
+.about-section .profile-image:hover{
+    filter: saturate(1);
+}
+.about-sub-div2{
+    width: 400px;
+}
+.about-sub-div2 h2{
+    font-size: 3rem;
+}
+.about-sub-div2 p{
+    color: black;
+    margin: 20px 0;
+}
+.global-btn{
+
+    text-align: center;
+}
+
+/* service section */
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+.grid-single-item{
+    padding: 3rem;
+    text-align: center;
+}
+.grid-single-item .fa-icon-size{
+    font-size: 4rem;
+}
+.grid-single-item p{
+    color: black;
+}
+
+/* work section */
+.grid-single-item .grid-single-image{
+    width: 200px;
+}
+/* testimonial section */
+.single-item-color{
+    color: var(--primary-color) !important;
+    margin-top: 4px;
+}
+.work-section .grid-single-image1{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.work-section .bbbb{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+.work-section .mm h2{
+    text-align: center;
+}
+.work-section{
+    text-align: center;
+}
+/* footer section */
+footer{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    height: 100px;
+
+}
+footer p{
+    padding-top: 40px;
+}
